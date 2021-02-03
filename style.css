@@ -31,7 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,7 +39,7 @@ a:hover {
     position: relative;
 }
 
-.bloc .container {
+.bloc {
     padding-left: 0;
     padding-right: 0;
 }
@@ -663,6 +663,7 @@ a {
 
 .container {
     max-width: 1000px;
+    padding: 1rem;
 }
 
 .hero-bloc-text {
@@ -771,10 +772,6 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
-}
-
-.bgc-dark-slate-blue {
-    background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
@@ -920,10 +917,10 @@ h4 {
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
-    .navbar.row {
+    /*.navbar.row {
         margin-left: 0;
         margin-right: 0;
-    }
+    }*/
     .site-navigation {
         position: inherit;
         transform: none;
@@ -989,7 +986,6 @@ h4 {
     .bloc-lg {
         padding: 40px 0;
     }
-    .bloc-sm,
     .bloc-md {
         padding-left: 0;
         padding-right: 0;

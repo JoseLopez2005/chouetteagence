@@ -1524,7 +1524,9 @@ p {
 }
 
 .text-center {
-    text-align:center
+    text-align:center;
+    max-width: 90%;
+    margin: auto
 }
 
 .text-justify {

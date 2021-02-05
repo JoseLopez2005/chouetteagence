@@ -39,11 +39,6 @@ a:hover {
     position: relative;
 }
 
-/*.bloc {
-    padding-left: 0;
-    padding-right: 0;
-}*/
-
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -476,8 +471,13 @@ button {
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 
-.icon-md {
+.icon-md-footer {
     font-size: 30px!important;
+    color: #575757;
+}
+
+.icon-md-footer:hover {
+    color: #2b2828;
 }
 
 .icon-lg {
@@ -533,6 +533,7 @@ button {
 
 a[data-lightbox] {
     position: relative;
+    margin-top: 1rem;
     display: block;
     text-align: center;
 }
@@ -686,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .citation {
@@ -697,7 +698,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto auto auto auto;
 }
 
@@ -719,7 +720,7 @@ p {
     max-width: 400px;
     display: flex;
     justify-content: space-around;
-    margin: auto auto auto auto;
+    margin: 1rem auto auto auto;
 }
 
 h2 {
@@ -771,8 +772,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    background-color: rgba(74, 77, 86, 0.7);
+    padding: 20px;
 }
 
 .bold-link {
@@ -785,11 +786,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #da8964;
+    background-color: #F3BB55;
 }
 
 .tc-white {
-    color:#F3976C!important;
+    color:#F3BB55!important;
 }
 
 .btn-atomic-tangerine {
@@ -862,13 +863,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -886,10 +887,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -898,8 +896,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1038,9 +1034,18 @@ h4 {
 }
 
 @media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
+    .bloc .bloc-lg {
+        padding: 0 0.8rem;
+    }
+    .bloc-lg {
+        margin: 0; 
+    }
+    .adresse {
+        padding-left: .8rem;
+    }
+    .horaire {
+        margin: 0;
+        padding-left: 0!important;
     }
 }
 

@@ -1031,11 +1031,14 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc .bloc-lg {
-        padding: 0 0.8rem;
+        padding: 0;
     }
     .bloc-lg {
         margin: 0; 
@@ -1047,10 +1050,29 @@ h4 {
         margin: 0;
         padding-left: 0!important;
     }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
+    .bg-banniere {
+        background-image: none;
+        background-color: #6e5757;
+    }
+    .bgc-white {
+        padding: 0 0.8rem;
+    }
+    .bg-presentation {
+        background-image: none;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    #disqus_thread {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .b4-heading {
+        max-width: 450px;
+        margin-top: 2rem;
     }
 }

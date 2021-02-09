@@ -6690,8 +6690,7 @@ button.close {
 
 .center-block {
     display:block;
-    margin-right:auto;
-    margin-left:auto
+    margin: 0 auto 1rem auto
 }
 
 .pull-right {

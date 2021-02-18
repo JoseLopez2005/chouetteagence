@@ -20,6 +20,7 @@ a:hover {
 
 .nav-lien:hover {
     color: #c27956;
+    -webkit-color:#c27956;
 }
 
 #page-loading-blocs-notifaction {
@@ -336,9 +337,6 @@ a:hover {
     background: transparent;
 }
 
-/*.nav > li a:hover {
-    color: red;
-}*/
 
 .navbar-toggle {
     margin: 10px 10px 0 0;

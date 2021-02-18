@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -798,7 +797,6 @@ h4 {
 
 .tc-white {
     color:#F6DC55!important;
-    background: none;
 }
 
 .btn-atomic-tangerine {

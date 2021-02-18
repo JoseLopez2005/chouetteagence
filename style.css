@@ -17,10 +17,6 @@ a:hover {
     cursor: pointer;
 }
 
-.nav-lien:hover {
-    color: #c27956;
-    -webkit-color:#c27956;
-}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -797,6 +793,7 @@ h4 {
 
 .tc-white {
     color:#F6DC55!important;
+    background-color: none!important;
 }
 
 .btn-atomic-tangerine {

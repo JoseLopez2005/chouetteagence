@@ -18,6 +18,10 @@ a:hover {
     cursor: pointer;
 }
 
+.nav-lien:hover {
+    color: #c27956;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -332,6 +336,10 @@ a:hover {
     background: transparent;
 }
 
+/*.nav > li a:hover {
+    color: red;
+}*/
+
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
@@ -399,11 +407,12 @@ a:hover {
     }
 }
 
-.nav > li > .dropdown a {
+.nav > li > a {
     background: none!important;
     display: block;
     padding: 14px 15px;
 }
+
 
 nav .caret {
     margin: 0 5px;
@@ -655,7 +664,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .b4-heading {

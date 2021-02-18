@@ -1523,7 +1523,8 @@ p {
 .text-center {
     text-align:center;
     max-width: 90%;
-    margin: auto
+    margin: auto;
+    background: none!important
 }
 
 .text-justify {

@@ -278,8 +278,9 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
+h1 {
     font-size: 32px;
+    background: none!important;
 }
 
 .navbar {
@@ -356,6 +357,10 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.bg-vide {
+    background: none!important;
 }
 
 @media (min-width: 768px) {
@@ -794,9 +799,9 @@ h4 {
 .tc-white {
     color:#F6DC55!important;
 }
-.text-center {
+/*.text-center {
     background: none!important;
-}
+}*/
 
 .btn-atomic-tangerine {
     background:#8E350B;

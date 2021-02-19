@@ -1509,8 +1509,7 @@ p {
 .text-center {
     text-align:center;
     max-width: 90%;
-    margin: auto;
-    background: rgba(0, 0, 0, .0001)
+    margin: auto
 }
 
 .text-justify {

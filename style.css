@@ -30,6 +30,11 @@ a:hover {
     position: relative;
 }
 
+.bloc .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -85,9 +90,9 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
+/*.d-bloc {
     color: rgba(255, 255, 255, 0.7);
-}
+}*/
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -137,6 +142,9 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
+}
+.d-bloc .navbar-toggle .icon-bar {
+    background: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .btn-wire,
@@ -663,9 +671,7 @@ a {
 }
 
 .hero-bloc-text {
-    color:#846F06!important; 
     font-size: 38px;
-    background: none!important;
 }
 
 .hero-bloc-text-sub {
@@ -786,8 +792,7 @@ h4 {
 }
 
 .tc-white {
-    color:#846F06!important;
-    background: none!important;
+    color:#F6DC55!important;
 }
 
 .btn-atomic-tangerine {
